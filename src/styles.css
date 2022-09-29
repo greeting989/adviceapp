@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+}
+#title {
+  text-align: center;
+  margin-top: 1rem;
+}
+.card {
+  display: flex;
+  height: 75vh;
+  width: 75vw;
+  background-color: #fb4570;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 5px 0px rgba(158, 158, 158, 1);
+  margin-top: 5rem;
+  border-radius: 2rem;
+}
+#quote {
+  font-size: 2rem;
+  color: #efebe0;
+  font-weight: 700;
+  line-height: 1;
+}
+#btn {
+  margin-top: 1.5rem;
+  border: none;
+  width: 8rem;
+  height: 5rem;
+  background-color: #fb8da0;
+  color: #efebe0;
+  padding: 1rem 1rem;
+}
